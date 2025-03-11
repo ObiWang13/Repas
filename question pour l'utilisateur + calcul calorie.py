@@ -27,8 +27,7 @@ print(intweight)
 size = input("Quel est votre taille (en cm)?")
 "Quel est votre taille (en cm)?"
 print(size)
-intsize = float(size)
-print(intsize)
+
 
 
 if sexe == 'femme':
@@ -51,3 +50,12 @@ elif 4 <= intactivitephysique <= 6:
 else: 
     a=1.725*a 
 print(a)
+
+
+
+glucides = (55/100)*a
+print(glucides)
+proteines = (30/100)*a
+print(proteines)
+graisses = (15/100)*a
+print(graisses)
